@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://be8qbmt0fe144"]
 
 [ext_resource type="Texture2D" uid="uid://dkmm3a3fc8yj6" path="res://assets/Mask Dude/Idle (32x32).png" id="1_qhqgy"]
+[ext_resource type="Script" uid="uid://c3ubxpp10k6x6" path="res://scripts/player.gd" id="1_qlg0r"]
 [ext_resource type="Texture2D" uid="uid://mfk2ggtcanod" path="res://assets/Mask Dude/Jump (32x32).png" id="2_dqkch"]
 [ext_resource type="Texture2D" uid="uid://cggq02npb2xms" path="res://assets/Mask Dude/Run (32x32).png" id="3_qlg0r"]
+[ext_resource type="Script" uid="uid://735uhfrw1pkp" path="res://scenes/animated_sprite_2d.gd" id="5_tuyoq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
 atlas = ExtResource("1_qhqgy")
@@ -191,18 +193,19 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
-radius = 16.0
 
 [node name="Player" type="CharacterBody2D" unique_id=538949210]
+script = ExtResource("1_qlg0r")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=626177025]
-position = Vector2(-1, -2.000001)
-scale = Vector2(2.2421873, 1.46875)
+position = Vector2(-13.937498, -7.7500005)
+scale = Vector2(1.4335936, 1.109375)
 sprite_frames = SubResource("SpriteFrames_wqfne")
 animation = &"running "
 autoplay = "running "
 frame_progress = 0.3189552
+script = ExtResource("5_tuyoq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=20260339]
-position = Vector2(2, 6)
+position = Vector2(-12, -4)
 shape = SubResource("CircleShape2D_qhqgy")
