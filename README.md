@@ -1,44 +1,46 @@
-##Clabobo-game  
+# Clabobo Game
 
+## Project Image
 
-##Project Image:<img width="581" height="325" alt="11" src="https://github.com/user-attachments/assets/4cf89e5f-0120-41d2-82c7-3093d60bb1af" />
+![Clabobo Game](https://github.com/user-attachments/assets/4cf89e5f-0120-41d2-82c7-3093d60bb1af)
 
+## Play the Game
 
-##Game-description:
-clabobo is a game where you have to move your character through a level. The main thing you have to do in Escape The Holes is get to the end of the level without falling into holes.I made Escape The Holes using Godot Engine. It is a 2D platformer game.When you play Escape The Holes you can pick up coins that're all around the level. You have to jump and move around to get these coins. There are lots of platforms and things that can stop you.I made Escape The Holes to help me learn about making 2D games. I wanted to learn more, about how characters move in games how they bump into things and how to make levels that're fun to play. I used Godot to learn about these things and to practice making games.
+https://mohamed-ra5a.itch.io/clabobogame
 
+## Game Description
 
-##How To Play
-Controls
-Move Left / Right → Arrow Keys or left & right click
-Jump → Space Bar
-Objective
-Reach the end of the level
-Avoid falling into holes
-Collect coins while exploring the map
+Clabobo is a 2D platformer game made with Godot Engine. The player must move through the level, avoid falling into holes, collect coins, and reach the end of the map.
 
+This project was created to practice the fundamentals of game development, including player movement, collisions, level design, and physics systems.
 
+## How to Play
 
-##Technologies And Tools Used
-Godot Engine
-GDScript
-2D Physics System
+### Controls
 
+* Move Left / Right: Arrow Keys
+* Jump: Space Bar
 
-##Features
-Basic 2D player movement
-Jump mechanics with gravity
-Coin collection
-Simple platform level design
-Obstacles and holes
+### Objective
 
+* Reach the end of the level
+* Avoid falling into holes
+* Collect coins while exploring the map
 
+## Technologies and Tools Used
 
+* Godot Engine
+* GDScript
+* 2D Physics System
 
+## Features
 
+* Basic 2D player movement
+* Jump mechanics with gravity
+* Coin collection
+* Platform-based level design
+* Obstacles and holes
 
-##inspiration : The project was inspired by 2D platform games. You know, the ones where the player has to move through levels and avoid things that can hurt them. The goal is to reach the end of each level.
+## Inspiration
 
-I wanted to make a game to help me learn the basics of game development in Godot. I am talking about the basics, like how to make things move how to make sure they do not go through each other and how to create levels. The game is a way for me to practice these things, especially movement systems, collisions and level creation in Godot.
-
-
+The project was inspired by classic 2D platformer games. It was developed as a learning project to practice movement systems, collision detection, and level creation in Godot.
